@@ -1,0 +1,95 @@
+body {
+  background-color: #ff1f5a;
+  color: rgb(242, 245, 247);
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.sub-text {
+  text-align: center;
+}
+.cat-pg {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+  grid-row-gap: 0px;
+  padding: 3rem 4rem;
+}
+
+.the {
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 0.009;
+}
+.cat-type {
+  font-family: "Luckiest Guy", cursive;
+  color: #ffd615;
+  font-size: 8rem;
+  line-height: 0.5;
+  text-shadow: 0px 1px 6px rgb(74, 74, 74);
+}
+
+.column-two {
+  padding: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
+}
+
+#this-cat {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 25px solid #1e2a78;
+}
+
+.this-cat {
+  display: flex;
+
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  background: none;
+}
+
+.progress-bar-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 25px;
+  border-bottom: 25px solid #ffd615;
+}
+
+.cat-info {
+  padding: 2rem;
+  background-color: #1e2a78;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 50px;
+}
+.btn {
+  background-color: #ffd615;
+  color: #1e2a78;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  width: 200px;
+}
+.btn:hover {
+  background-color: #1e2a78;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width: 768px) {
+  .cat-pg {
+    display: flex;
+    flex-direction: column;
+  }
+}
