@@ -1,5 +1,5 @@
 body {
-  background-color: #ff1f5a;
+  background: #f82c62;
   color: rgb(242, 245, 247);
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
@@ -49,11 +49,9 @@ h3 {
 
 .this-cat {
   display: flex;
-
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
-  background: none;
 }
 
 .progress-bar-top {

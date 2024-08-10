@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Lover Haven</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous" />
+
+      <!-- Axios -->
+    <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- Our Scripts -->
+  <script defer type="text/javascript" src="Carousel.js"></script>
+  <script defer type="text/javascript" src="axios-script.js"></script>
+
+  <!-- progress bar -->
+  <script src="https://cdn.rawgit.com/rikmms/progress-bar-4-axios/0a3acf92/dist/index.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+    <!-- Progress Bar-->
+
+    <div>
+        <progress
+          id="progress-bar"
+          value="0"
+          max="100"
+          class="progress-bar-top"
+          style="transition: width 1s ease"></progress>
+      </div>
+  
+      <main class="cat-pg">
+        <div class="column-one">
+          <div id="cat-column" class="">
+            <div class="" id="">
+              <div class="">
+                <img
+                  src="https://images.pexels.com/photos/736532/pexels-photo-736532.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="photo of cat"
+                  id="this-cat" />
+              </div>
+        
+            </div>
+       
+          </div>
+  
+          
+        </div>
+  
+        <!-- Breed Selection -->
+        <div class="colum-two">
+  
+          <h2 class="w-100 text-center mt-5 cat-type"><div class='the'>CAT LOVER</div><br> HAVEN</h2><br>
+          <p class="sub-text">Select a cat breed and read the facts.</p>
+          <select
+            id="breedSelect"
+            style="width: 300px"
+            class="form-select form-select-lg my-1 mx-auto"
+            aria-label="form-select-lg"></select>
+          <div class="d-flex">
+            <button id="getFavouritesBtn" class="btn  mx-auto mt-5" style="background-color:#ffd615 ;">
+              Get Favorites
+            </button>
+          </div>
+  
+          <div id="infoDump" class="px-5 py-3 mx-auto text-center cat-info" style="max-width: 1600px; color: white;"> 
+            
+                     
+  <h3>Meet Lucky!</h3>
+My charming cat who started life as a tiny kitten rescued from the streets. Over time, he’s blossomed into a beautiful cat with a wonderfully sweet personality. Lucky is curious and fearless, always eager to chase after toys, and has a habit of following me everywhere around the house. He’s not just a pet; he’s a loyal companion who fills my days with joy and warmth.  
+  
+          </div>
+          </div>
+        </div>
+      </main>
+  <footer>
+    
+  </footer>
+    
+
+
+
+
+
+    
+</body>
+</html>
